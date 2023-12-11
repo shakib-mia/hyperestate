@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center container py-10 text-white absolute left-0 right-0 m-auto z-10"
+    >
+      <div class="text-xl uppercase font-bold">Hyperstate</div>
+      <div class="flex gap-[5.63rem] items-center">
+        <ul class="flex gap-10 text-md">
+          <li>Property</li>
+          <li>Services</li>
+          <li>Product</li>
+          <li>About Us</li>
+        </ul>
+        <button
+          class="py-[0.9375rem] px-[1.875rem] bg-white text-black text-xl font-semibold rounded"
+        >
+          Contact
+        </button>
+      </div>
+    </nav>
+    <header class="bg-black h-screen relative">
+      <div class="w-1/3 h-full bg-accent absolute right-0 z-0"></div>
+      <div class="absolute left-0 text-white h-full w-full">
+        <div class="container h-full">
+          <div class="flex h-full gap-28 pt-52">
+            <div>
+              <h1 class="font-bold leading-[normal] capitalize">
+                The best place to find your dream house
+              </h1>
+
+              <p class="mt-6 text-md capitalize leading-6">
+                We are real estate agency that willhelp you designing a modern
+                and minimalist dream house, let’s discuss.
+              </p>
+
+              <div class="my-12 h-20">
+                <div
+                  class="flex items-center bg-white gap-3 rounded-[0.625rem] p-2 w-[41rem] absolute"
+                >
+                  <img src="./assets/icons/ci_location.svg" alt="location" />
+                  <input
+                    type="text"
+                    placeholder="Search by location..."
+                    class="placeholder:text-lg w-full h-full py-5 focus:outline-none text-black text-lg"
+                  />
+
+                  <button
+                    class="bg-accent py-6 ml-auto w-[17rem] rounded-[0.625rem]"
+                  >
+                    Search Now
+                  </button>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-3 text-white gap-[3.125rem]">
+                <div class="font-semibold">
+                  <h4 class="tracking-[0.0175rem]">
+                    1200<span class="text-accent">+</span>
+                  </h4>
+                  <p class="text-base opacity-80 tracking-[0.01rem]">
+                    Premium Product
+                  </p>
+                </div>
+                <div class="font-semibold">
+                  <h4 class="tracking-[0.0175rem]">
+                    4500<span class="text-accent">+</span>
+                  </h4>
+                  <p class="text-base opacity-80 tracking-[0.01rem]">
+                    Happy Customer
+                  </p>
+                </div>
+                <div class="font-semibold">
+                  <h4 class="tracking-[0.0175rem]">
+                    240<span class="text-accent">+</span>
+                  </h4>
+                  <p class="text-base opacity-80 tracking-[0.01rem]">
+                    Award Winning
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/hero.jpg"
+                class="w-[106rem] rounded-2xl"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <p class="h-screen">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis neque, eius
+      sapiente iure cumque libero itaque, impedit amet doloremque placeat autem
+      harum vero delectus quas ea, odit nisi officia cum.
+    </p>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

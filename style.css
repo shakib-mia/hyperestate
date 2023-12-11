@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: "Proxim Nova";
+  src: url("./fonts/Proxima Nova Font.otf") format("opentype");
+  /* Other font properties, if needed */
+}
+@tailwind utilities;
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.container {
+  @apply max-w-[1200px] mx-auto;
+}
+
+h1 {
+  @apply text-5xl md:text-6xl lg:text-7xl;
+}
+
+h2 {
+  @apply text-4xl md:text-5xl lg:text-6xl;
+}
+h3 {
+  @apply text-3xl md:text-4xl lg:text-5xl;
+}
+h4 {
+  @apply text-2xl md:text-3xl lg:text-4xl;
+}
+h5 {
+  @apply text-xl md:text-2xl lg:text-3xl;
+}
+h6 {
+  @apply text-lg md:text-xl lg:text-2xl;
+}
