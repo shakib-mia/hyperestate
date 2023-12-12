@@ -10,12 +10,12 @@ export default {
       "2xl": "1440px",
     },
     fontSize: {
-      "7xl": "4.5rem",
-      "6xl": "3.125rem",
-      "5xl": "2.8125rem",
-      "4xl": "1.75rem",
-      "3xl": "1.5rem",
-      "2xl": "1.4375rem",
+      "7xl": "4.5rem", // h1
+      "6xl": "3.125rem", // h2
+      "5xl": "2.8125rem", // h3
+      "4xl": "1.75rem", // h4
+      "3xl": "1.5rem", // h5
+      "2xl": "1.4375rem", // h6
       xl: "1.375rem",
       lg: "1.25rem",
       md: "1.125rem",

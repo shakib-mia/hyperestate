@@ -2,6 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap");
 
 ::-webkit-scrollbar {
   width: 0;
@@ -34,4 +36,16 @@ h5 {
 }
 h6 {
   @apply text-lg md:text-xl lg:text-2xl;
+}
+
+.value-check:checked ~ img {
+  @apply rotate-45;
+}
+
+.value-text {
+  display: none;
+}
+
+.value-header:has(.value-check:checked) ~ p {
+  @apply block;
 }
