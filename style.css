@@ -1,14 +1,15 @@
+@import url("./fonts/proxima-nova.css");
 @tailwind base;
 @tailwind components;
-@font-face {
-  font-family: "Proxim Nova";
-  src: url("./fonts/Proxima Nova Font.otf") format("opentype");
-  /* Other font properties, if needed */
-}
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
 }
 
 .container {
