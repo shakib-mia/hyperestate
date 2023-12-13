@@ -8,6 +8,8 @@ export default {
       lg: "992px",
       xl: "1200px",
       "2xl": "1440px",
+      "3xl": "1920px",
+      "4xl": "2560px",
     },
     fontSize: {
       "7xl": "4.5rem", // h1
@@ -31,6 +33,7 @@ export default {
         DEFAULT: "#FF3F3F",
         20: "#FF3F3F33",
       },
+      transparent: "#00000000",
     },
     extend: {},
   },

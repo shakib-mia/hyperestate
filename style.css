@@ -1,9 +1,9 @@
 @import url("./fonts/proxima-nova.css");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap");
 
 ::-webkit-scrollbar {
   width: 0;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  @apply max-w-[1200px] mx-auto;
+  @apply max-w-[98%] xl:max-w-[1200px] mx-auto;
 }
 
 h1 {
@@ -48,4 +48,8 @@ h6 {
 
 .value-header:has(.value-check:checked) ~ p {
   @apply block;
+}
+
+#nav-check:checked + #nav-item {
+  @apply flex;
 }

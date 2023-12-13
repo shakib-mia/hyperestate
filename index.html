@@ -12,26 +12,46 @@
       class="flex justify-between items-center container py-10 text-white absolute left-0 right-0 m-auto z-10"
     >
       <div class="text-xl uppercase font-bold">Hyperstate</div>
-      <div class="flex gap-[5.63rem] items-center">
-        <ul class="flex gap-10 text-md">
-          <li>Property</li>
-          <li>Services</li>
-          <li>Product</li>
-          <li>About Us</li>
+      <label for="nav-check">
+        <img
+          src="./assets/icons/hamburger.svg"
+          class="w-5 h-5 xl:hidden"
+          alt=""
+        />
+      </label>
+
+      <input type="checkbox" class="hidden" id="nav-check" />
+      <div
+        class="hidden xl:flex gap-10 xl:gap-[5.63rem] items-center flex-col xl:flex-row absolute -left-3 top-0 xl:static bg-white pt-28 pb-4 xl:pt-0 xl:pb-0 xl:bg-transparent text-black xl:text-white w-screen xl:w-auto"
+        id="nav-item"
+      >
+        <label
+          for="nav-check"
+          class="text-black absolute right-3 top-3 text-4xl xl:hidden"
+        >
+          &times;
+        </label>
+        <ul class="flex gap-10 text-md flex-col xl:flex-row">
+          <li><a href="#"> Property </a></li>
+          <li><a href="#"> Services </a></li>
+          <li><a href="#"> Product </a></li>
+          <li><a href="#"> About Us </a></li>
         </ul>
         <button
-          class="py-[0.9375rem] px-[1.875rem] bg-white text-black text-xl font-semibold rounded"
+          class="py-[0.9375rem] px-[1.875rem] bg-black text-white xl:bg-white xl:text-black text-xl font-semibold rounded"
         >
           Contact
         </button>
       </div>
     </nav>
     <header class="bg-black h-screen relative">
-      <div class="w-1/3 h-full bg-accent absolute right-0 z-0"></div>
-      <div class="absolute left-0 text-white h-full w-full">
+      <div class="w-1/3 4xl:w-5/12 h-full bg-accent absolute right-0 z-0"></div>
+      <div class="absolute left-0 text-white h-10 xl:h-full w-full">
         <div class="container h-full">
-          <div class="flex h-full gap-28 pt-52">
-            <div>
+          <div
+            class="flex flex-col xl:flex-row h-full gap-8 xl:gap-28 items-center py-28 xl:py-0"
+          >
+            <aside>
               <h1 class="font-bold leading-[normal] capitalize">
                 The best place to find your dream house
               </h1>
@@ -43,7 +63,7 @@
 
               <div class="my-12 h-20">
                 <div
-                  class="flex items-center bg-white gap-3 rounded-[0.625rem] p-2 w-[41rem] absolute"
+                  class="flex items-center bg-white gap-3 rounded-[0.625rem] p-2 xl:w-[41rem] xl:absolute"
                 >
                   <img src="./assets/icons/ci_location.svg" alt="location" />
                   <input
@@ -60,7 +80,7 @@
                 </div>
               </div>
 
-              <div class="grid grid-cols-3 text-white gap-[3.125rem]">
+              <div class="grid grid-cols-3 text-white gap-2 xl:gap-[3.125rem]">
                 <div class="font-semibold">
                   <h4 class="tracking-[0.0175rem]">
                     1200<span class="text-accent">+</span>
@@ -86,23 +106,25 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div>
+            </aside>
+            <aside>
               <img
                 src="./assets/images/hero.jpg"
-                class="w-[106rem] rounded-2xl"
+                class="w-[106rem] lg:w-11/12 xl:w-[106rem] rounded-2xl"
                 alt=""
               />
-            </div>
+            </aside>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="relative pt-40">
+      <section class="relative py-8 xl:pt-40">
         <div class="container">
-          <div class="flex justify-between">
+          <div
+            class="flex justify-between mt-48 sm:mt-96 sm:pt-10 md:mt-96 md:pt-40 xl:pt-0 xl:mt-0"
+          >
             <h2 class="font-bold">Popular Resident</h2>
             <a href="#" class="flex gap-5 items-center">
               <p class="text-base">Explore All</p>
@@ -287,48 +309,66 @@
           </div>
         </div>
         <div
-          class="absolute bg-black pt-96 w-screen left-0 top-[30.5rem] text-white -z-10"
+          class="static xl:absolute bg-black py-4 xl:pt-96 w-screen left-0 top-[30.5rem] text-white -z-10"
         >
           <div class="container">
-            <div class="flex">
-              <div class="w-5/12">
+            <div class="flex flex-col xl:flex-row">
+              <div class="w-full xl:w-5/12">
                 <h4 class="font-semibold">John Doe</h4>
                 <p class="mt-1 font-medium opacity-80">Founder HyperEstate</p>
               </div>
-              <div class="w-7/12 relative">
+              <div class="w-full xl:w-7/12 relative mt-7 xl:mt-0">
                 <img
                   src="./assets/icons/bxs_quote-left.svg"
                   class="absolute -top-6"
                   alt=""
                 />
-                <p class="w-11/12 ml-auto text-4xl font-semibold opacity-80">
+                <p
+                  class="w-11/12 ml-auto text-lg xl:text-4xl font-semibold opacity-80"
+                >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                   aliquam, purus sit amet luctus venenatis, lectus magna
                   fringilla urna, porttitor.
                 </p>
               </div>
             </div>
-            <hr class="bg-white opacity-80 my-20" />
+            <hr class="bg-white opacity-80 my-9 xl:my-20" />
 
-            <div class="flex justify-between mb-20">
-              <img src="./assets/icons/Paypal-Grey.svg" alt="" /><img
+            <div class="flex justify-between mb-4 xl:mb-20">
+              <img
+                class="h-7 md:h-auto w-auto md:w-auto"
+                src="./assets/icons/Paypal-Grey.svg"
+                alt=""
+              /><img
+                class="h-7 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/Webflow Grey.svg"
                 alt="Webflow"
-              /><img src="./assets/icons/Google Grey.svg" alt="Google" /><img
+              /><img
+                class="h-7 md:h-auto w-auto md:w-auto"
+                src="./assets/icons/Google Grey.svg"
+                alt="Google"
+              /><img
+                class="h-7 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/amazon-grey.svg"
                 alt="amazon"
-              /><img src="./assets/icons/Adobe Grey.svg" alt="adobe" />
+              /><img
+                class="h-7 md:h-auto w-auto md:w-auto"
+                src="./assets/icons/Adobe Grey.svg"
+                alt="adobe"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      <div class="py-36 flex flex-col gap-36 mt-[21rem]">
-        <div class="grid grid-cols-2 gap-24 container mt-36 items-center">
-          <img src="./assets/images/value.jpg" alt="Value" />
+      <div class="xl:py-36 flex flex-col xl:gap-36 xl:mt-[21rem]">
+        <div
+          class="grid grid-cols-1 xl:grid-cols-2 gap-3 xl:gap-24 container mt-36 items-center"
+        >
+          <img src="./assets/images/value.jpg" alt="Value" class="mx-auto" />
           <aside>
-            <h2 class="font-bold leading-[3.90625rem]">
-              Value we give <br />
+            <h2 class="font-bold xl:leading-[3.90625rem]">
+              Value we give <br class="hidden xl:block" />
               to you
             </h2>
             <p class="mt-4 text-lg font-medium">
@@ -465,12 +505,18 @@
             </div>
           </aside>
         </div>
-        <div class="container">
-          <h2 class="mb-[3.75rem] font-bold">Our Blogs</h2>
+        <div class="container py-4 xl:py-0">
+          <h2 class="mb-2 xl:mb-[3.75rem] font-bold">Our Blogs</h2>
 
-          <div class="grid grid-cols-3 gap-[1.88rem]">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[1.88rem]"
+          >
             <div>
-              <img src="./assets/images/blog-1.jpg" alt="resident-1" />
+              <img
+                src="./assets/images/blog-1.jpg"
+                class="w-full"
+                alt="resident-1"
+              />
               <p class="text-xs my-[1.13rem] font-semibold opacity-70">
                 19 July 2022
               </p>
@@ -486,7 +532,11 @@
               </button>
             </div>
             <div>
-              <img src="./assets/images/blog-2.jpg" alt="resident-2" />
+              <img
+                src="./assets/images/blog-2.jpg"
+                class="w-full"
+                alt="resident-2"
+              />
               <p class="text-xs my-[1.13rem] font-semibold opacity-70">
                 14 March 2022
               </p>
@@ -502,7 +552,11 @@
               </button>
             </div>
             <div>
-              <img src="./assets/images/blog-3.jpg" alt="resident-3" />
+              <img
+                src="./assets/images/blog-3.jpg"
+                class="w-full"
+                alt="resident-3"
+              />
               <p class="text-xs my-[1.13rem] font-semibold opacity-70">
                 28 February 2022
               </p>
@@ -538,22 +592,26 @@
             To join the worldwide community
           </h6>
 
-          <div class="w-1/2 mx-auto bg-white p-1 rounded-[0.625rem] flex my-14">
+          <div
+            class="w-full xl:w-1/2 mx-auto bg-white p-1 rounded-[0.625rem] flex my-14"
+          >
             <input
               type="email"
               class="p-5 text-black focus:outline-none w-full placeholder:text-black placeholder:opacity-50"
               placeholder="Enter Your Email "
             />
             <button
-              class="bg-accent px-9 py-5 rounded-[0.625rem] text-white text-md font-bold w-[inherit]"
+              class="bg-accent px-4 py-2 xl:px-9 xl:py-5 rounded-[0.625rem] text-white text-md font-bold w-1/2 xl:w-[inherit]"
             >
               Join Now
             </button>
           </div>
           <hr class="opacity-70" />
-          <div class="flex justify-between mt-16 items-center mb-9">
+          <div
+            class="flex flex-col xl:flex-row justify-between mt-16 items-center mb-9"
+          >
             <p class="text-xl font-bold">HYPERESTATE</p>
-            <ul class="flex gap-11">
+            <ul class="flex gap-2 xl:gap-11">
               <li class="font-semibold text-xs">
                 <a
                   href="#"
