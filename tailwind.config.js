@@ -32,6 +32,7 @@ export default {
       accent: {
         DEFAULT: "#FF3F3F",
         20: "#FF3F3F33",
+        dark: "#CC2C2C",
       },
       transparent: "#00000000",
     },

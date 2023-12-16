@@ -1,4 +1,5 @@
 const lenis = new Lenis();
+AOS.init();
 
 lenis.on("scroll", (e) => {
   // console.log(e);
@@ -10,3 +11,6 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+const date = new Date();
+document.getElementById("year").innerText = date.getFullYear();
