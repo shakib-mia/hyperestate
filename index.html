@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Hyper Estate</title>
     <link rel="stylesheet" href="./style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -13,7 +12,7 @@
     <nav
       class="flex justify-between items-center container py-10 text-white absolute left-0 right-0 m-auto z-10"
     >
-      <div class="text-xl uppercase font-bold">Hyperstate</div>
+      <div class="text-xl uppercase font-bold">Hyperestate</div>
       <label for="nav-check">
         <img
           src="./assets/icons/hamburger.svg"
@@ -24,7 +23,7 @@
 
       <input type="checkbox" class="hidden" id="nav-check" />
       <div
-        class="hidden xl:flex gap-10 xl:gap-[5.63rem] items-center flex-col xl:flex-row absolute -left-3 top-0 xl:static bg-white pt-28 pb-4 xl:pt-0 xl:pb-0 xl:bg-transparent text-black xl:text-white w-screen xl:w-auto"
+        class="hidden xl:flex gap-10 xl:gap-[5.63rem] items-center flex-col xl:flex-row absolute -left-[1.2rem] top-0 xl:static bg-white pt-28 pb-4 xl:pt-0 xl:pb-0 xl:bg-transparent text-black xl:text-white w-screen xl:w-auto z-[999]"
         id="nav-item"
       >
         <label
@@ -51,7 +50,7 @@
 
     <header class="bg-black h-screen relative">
       <div
-        class="w-1/3 4xl:w-5/12 h-full bg-accent hover:bg-accent-dark transition absolute right-0 z-0"
+        class="w-1/3 4xl:w-5/12 h-full bg-accent transition absolute right-0 z-0"
       ></div>
       <div class="absolute left-0 text-white h-10 xl:h-full w-full">
         <div class="container h-full">
@@ -68,7 +67,7 @@
                 and minimalist dream house, let’s discuss.
               </p>
 
-              <div class="my-12 h-20">
+              <div class="my-12 xl:h-20">
                 <div
                   class="flex items-center bg-white gap-3 rounded-[0.625rem] p-2 xl:w-[41rem] xl:absolute"
                 >
@@ -76,11 +75,11 @@
                   <input
                     type="text"
                     placeholder="Search by location..."
-                    class="placeholder:text-lg w-full h-full py-5 focus:outline-none text-black text-lg"
+                    class="placeholder:text-lg w-full h-full py-2 xl:py-5 focus:outline-none text-black text-lg"
                   />
 
                   <button
-                    class="bg-accent hover:bg-accent-dark transition py-6 ml-auto w-[17rem] rounded-[0.625rem]"
+                    class="bg-accent hover:bg-accent-dark transition py-3 xl:py-6 ml-auto w-[17rem] rounded-[0.625rem]"
                   >
                     Search Now
                   </button>
@@ -139,30 +138,30 @@
               <img
                 src="./assets/icons/right-arrow.svg"
                 alt="right-arrow"
-                class="w-9"
+                class="w-4 md:w-9"
               />
             </a>
           </div>
           <div
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[3.78rem] gap-8 z-10"
-            data-aos="fade-top"
           >
             <!-- resident 1 -->
             <div
               class="text-justify rounded-[0.67569rem] overflow-hidden relative z-0"
               style="box-shadow: 0px 0px 21.622px 0px rgba(0, 0, 0, 0.15)"
+              data-aos="flip-left"
             >
               <img src="./assets/images/resident-1.jpg" class="w-full" alt="" />
-              <div class="bg-white p-8">
+              <div class="bg-white p-4 xl:p-8">
                 <h5 class="font-bold">$ 59,345</h5>
-                <p class="text-lg font-semibold my-6">
+                <p class="text-md xl:text-lg font-semibold my-6">
                   Home in Downtown, Los Angeles
                 </p>
                 <hr class="bg-black" />
 
                 <div class="flex mt-6 gap-[0.62rem]">
                   <div
-                    class="w-5/12 px-4 py-2 flex gap-[0.41rem]"
+                    class="w-5/12 px-2 xl:px-4 py-2 flex gap-[0.41rem]"
                     style="
                       box-shadow: 0px 0px 6.486px 0px rgba(20, 20, 20, 0.15);
                     "
@@ -208,18 +207,19 @@
             <div
               class="text-justify rounded-[0.67569rem] overflow-hidden relative z-0"
               style="box-shadow: 0px 0px 21.622px 0px rgba(0, 0, 0, 0.15)"
+              data-aos="flip-up"
             >
               <img src="./assets/images/resident-2.jpg" class="w-full" alt="" />
-              <div class="bg-white p-8">
+              <div class="bg-white p-4 xl:p-8">
                 <h5 class="font-bold">$ 79,345</h5>
-                <p class="text-lg font-semibold my-6">
+                <p class="text-md xl:text-lg font-semibold my-6">
                   Modern Loft in San Francisco, CA
                 </p>
                 <hr class="bg-black" />
 
                 <div class="flex mt-6 gap-[0.62rem]">
                   <div
-                    class="w-5/12 px-4 py-2 flex gap-[0.41rem]"
+                    class="w-5/12 px-2 xl:px-4 py-2 flex gap-[0.41rem]"
                     style="
                       box-shadow: 0px 0px 6.486px 0px rgba(20, 20, 20, 0.15);
                     "
@@ -265,18 +265,19 @@
             <div
               class="text-justify rounded-[0.67569rem] overflow-hidden relative z-0"
               style="box-shadow: 0px 0px 21.622px 0px rgba(0, 0, 0, 0.15)"
+              data-aos="flip-right"
             >
               <img src="./assets/images/resident-3.jpg" class="w-full" alt="" />
-              <div class="bg-white p-8">
+              <div class="bg-white p-4 xl:p-8">
                 <h5 class="font-bold">$ 53,542</h5>
-                <p class="text-lg font-semibold my-6">
+                <p class="text-md xl:text-lg font-semibold my-6">
                   Apartment Downtown, San Diego
                 </p>
                 <hr class="bg-black" />
 
                 <div class="flex mt-6 gap-[0.62rem]">
                   <div
-                    class="w-5/12 px-4 py-2 flex gap-[0.41rem]"
+                    class="w-5/12 px-2 xl:px-4 py-2 flex gap-[0.41rem]"
                     style="
                       box-shadow: 0px 0px 6.486px 0px rgba(20, 20, 20, 0.15);
                     "
@@ -350,23 +351,23 @@
             <!-- clients section -->
             <div class="flex justify-between mb-4 xl:mb-20">
               <img
-                class="h-7 md:h-auto w-auto md:w-auto"
+                class="h-5 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/Paypal-Grey.svg"
                 alt=""
               /><img
-                class="h-7 md:h-auto w-auto md:w-auto"
+                class="h-5 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/Webflow Grey.svg"
                 alt="Webflow"
               /><img
-                class="h-7 md:h-auto w-auto md:w-auto"
+                class="h-5 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/Google Grey.svg"
                 alt="Google"
               /><img
-                class="h-7 md:h-auto w-auto md:w-auto"
+                class="h-5 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/amazon-grey.svg"
                 alt="amazon"
               /><img
-                class="h-7 md:h-auto w-auto md:w-auto"
+                class="h-5 md:h-auto w-auto md:w-auto"
                 src="./assets/icons/Adobe Grey.svg"
                 alt="adobe"
               />
@@ -385,9 +386,9 @@
             src="./assets/images/value.jpg"
             alt="Value"
             class="mx-auto"
-            data-aos="fade-right"
+            data-aos="zoom-in-left"
           />
-          <aside data-aos="fade-left">
+          <aside data-aos="zoom-in-right">
             <!-- value heading -->
             <h2 class="font-bold xl:leading-[3.90625rem]">
               Value we give <br class="hidden xl:block" />
