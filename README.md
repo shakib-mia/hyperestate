@@ -2,6 +2,8 @@
 
 HyperEstate stands as a premier digital showcase for modern and minimalist dream homes, offering a seamless interface for prospective homeowners to find their ideal property. HyperEstate encapsulates a user-friendly, informative platform for anyone looking to navigate the real estate market with ease and confidence.
 
+[Click here](https://hyperstate.netlify.app/) to get the live preview
+
 ## Packages
 
 1. **AOS (Animate on Scroll)**: For Scrolling Animation
