@@ -26,7 +26,7 @@ HyperEstate stands as a premier digital showcase for modern and minimalist dream
 
 1. Designed By [Kartik Bansal](<https://www.figma.com/file/5Qocnzgr3m9770W0Z1nPHy/Landing-Page-UI-Kit-(Community)?type=design&node-id=521-2736&mode=design&t=hfAUqmbPIaSiB9TR-0>)
 
-2. Developed By [Raddito](https://raddito.com/)
+2. Developed By [Md. Shakib Mia](https://md-shakib-mia.web.app/)
 
 # Available Scripts
 
